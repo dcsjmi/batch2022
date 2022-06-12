@@ -1,0 +1,33 @@
+
+.curriculumCard{
+    border-radius:8% !important;
+    width:350px;
+    height:320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row_second{
+    margin-top:10%;
+    margin-bottom:5%;
+}
+.card_title{
+    width:90%;
+    background:#5C5CFF;
+    color:white;
+    padding:5%;
+    margin-top:-13%;
+    margin-left:-5%;
+    border-radius:20px; 
+    font-size:2em;
+    text-align:center
+}
+@media (max-width:768px)
+{
+    .row_second{
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .curriculumCard{
+        margin-top: 7%;
+    }
+}

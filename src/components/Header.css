@@ -1,0 +1,54 @@
+
+.navbar{
+  color:white;
+}
+.nav-links{
+  display: flex;
+}
+
+.mobile-menu-icon{
+  display: none;
+}
+.nav-item{
+  font-weight: 500;
+}
+.nav-item:hover{
+  box-shadow: inset 50px 0px 50px 50px white; 
+   transition:0.9s;
+  color: #09526F;
+}
+
+@media ( max-width:720px){
+  .nav-links{
+    display: none;
+  }
+  .nav-links-mobile{
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color:#09526F ;
+    left:0;
+    top:55px;
+    transition: all 0.5s ease-out;
+    width:100%;
+    z-index:100;
+  }
+  .nav-item{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    width:100%;
+    transition: all 0.5s ease;
+  }
+  .mobile-menu-icon{
+    display: block;
+    position: absolute;
+    font-size:20px;
+    background-color:transparent ;
+    color: white;
+    border:none;
+    outline:none;
+    top:0px;
+    right:15px;
+  }
+}

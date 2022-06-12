@@ -1,0 +1,222 @@
+
+  .home-body{
+    font-family: Arial;
+    background-color: #ECFAFE;
+    overflow-x: hidden;
+  }
+  
+  #hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../web_design/MainFinal/student-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid #ecfafe 20px;
+    box-shadow: 15px 15px 30px rgb(128, 128, 128, 0.15);
+    border-bottom-left-radius: 100% 50%;
+    border-bottom-right-radius: 100% 50%;
+    }
+
+  .mid-home-container{
+    border-bottom-left-radius: 100% 40%;
+    border-bottom-right-radius: 100% 40%;
+    padding: 20vh 16vh;
+    background-color: white;
+    position: relative;
+    z-index: 0
+  }
+
+  
+  #hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 90%;
+  }
+  #content {
+    z-index: 1;
+  }
+  #content img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  #content h1 {
+    color: #fff;
+  }
+  #content h2 {
+    color: #fff;
+  }
+  
+  #ghalib img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 17px solid #fff;
+    box-shadow: 15px 15px 15px rgb(128, 128, 128, 0.15);
+  }
+  @media (max-width:768px){
+    #ghalib img {
+      height: 280px;
+      width: 300px;
+      margin-bottom:20px;
+    }
+    .aboutButton{
+      margin-bottom: 50px;
+    }
+    
+  }
+  #aboutHeading {
+    background: linear-gradient(#0079a5, #143d61);
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 20px 30px #ecfafe;
+    padding: 4px 8px;
+  }
+  #aboutContent p {
+    text-align: justify;
+  }
+  .aboutButton {
+    background: linear-gradient(#0079a5, #143d61);
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+
+  .aboutButton:hover{
+    box-shadow: inset 0px 50px 0px 50px white; 
+    transition:0.5s;
+    color: rgb(43, 52, 58);
+  }
+  .homestyleCard{
+    background-color: #ECFAFE;
+    padding:0 ;
+    position: relative;
+
+  }
+  #options {
+    background: url("../web_design/MainFinal/base.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  
+
+  .optionContainer {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+ }
+
+.home-card-box{
+  width: 30%;
+}
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 425px) {
+  .homestyleCard{
+    background-color: #ECFAFE;
+    padding:0 ;
+    position: relative;
+
+  }
+  #options {
+    background: url("../web_design/MainFinal/base.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  
+
+  .optionContainer {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+ }
+
+.home-card-box{
+  width: 100%;
+}
+#hero p{
+  font-size: 20px !important;
+}
+#hero h2{
+  font-size: 18px !important;
+}
+}
+@media screen and (max-width: 375px) {
+  .homestyleCard{
+    background-color: #ECFAFE;
+    padding:0 ;
+    position: relative;
+
+  }
+  #options {
+    background: url("../web_design/MainFinal/base.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  
+
+  .optionContainer {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+ }
+
+.home-card-box{
+  width: 100%;
+}
+#hero p{
+  font-size: 20px !important;
+}
+#hero h2{
+  font-size: 18px !important;
+}
+}
+@media screen and (max-width: 320px) {
+  .homestyleCard{
+    background-color: #ECFAFE;
+    padding:0 ;
+    position: relative;
+
+  }
+  #options {
+    background: url("../web_design/MainFinal/base.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  
+
+  .optionContainer {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+ }
+
+.home-card-box{
+  width: 100%;
+}
+#hero p{
+  font-size: 20px !important;
+}
+#hero h2{
+  font-size: 18px !important;
+}
+}
+  

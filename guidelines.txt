@@ -1,0 +1,4 @@
+(1) Please write proper comments so it could make it more readable for others
+(2) For each section there should be a seperate css file and avoid over-ridding parent classes rather make seperate classes in case you use the same class name in different places
+(3) Avoid redundancy of code, rather make a reusable section and import it wherever required
+(4) Please follow the project structure throughout 

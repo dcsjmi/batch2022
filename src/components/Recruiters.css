@@ -1,0 +1,190 @@
+
+
+
+.companies-photos{
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 3% ;
+    position:relative;
+}
+.past-placements{
+    margin:40px auto;
+    border: 1px;
+    background-image:linear-gradient(#0079A5, #143D61);
+    width: 50%;
+    height:50px;
+    border-radius: 12px;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px 10px;
+    box-shadow: 0px 1px 10px #2eaddb;
+    box-shadow: blur;
+
+
+}
+
+.container-past{
+    display: block;
+}
+
+.past-placements p{
+    font-family:'Arial';
+    font-size: 25px;
+    color: white;
+    display: block;
+
+}
+
+.past-placements-year{
+    border:1px black;
+    background-image:linear-gradient(white,rgb(173, 173, 173));
+    border-radius: 20px;
+     padding: 0 30px ;
+    font-family:'Arial';
+    font-size: 30px;
+    color: rgb(1, 1, 78);
+    font-weight: bold;
+
+    margin:0 30px; 
+        
+}
+
+.past-placements-visuals{
+    position: relative;
+    border-radius: 18px;
+    background-image:linear-gradient(#0079A5, #0B0538);
+    width:80%;
+    
+    margin:30px auto;
+    padding: 20px 20px ;
+
+}
+.past-placements-visuals-with-graph{
+    display: flex;
+    justify-content: space-between;
+}
+
+.graph{
+    width:100%;
+    height:auto;
+    transition: transform .4s;
+}
+
+.pie{
+    width:100%;
+    height:auto;
+    transition: transform .4s;
+}
+.graph:hover, .pie:hover{
+    transform: scale(1.2);
+    background-image:linear-gradient(#0079A5, #0B0538);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .recruiters-heading{
+        margin: 30px auto;
+        border: 1px;
+        background-image:linear-gradient(#0079A5, #143D61);
+        width: 70%;
+        height: 30px;
+        border-radius: 10px;
+        justify-content: space-between;
+        display: flex;
+        padding: 5px 5px;
+        box-shadow: 0px 1px 10px #2eaddb;
+        box-shadow: blur;
+    
+    
+    }
+    .recruiters-heading p{
+            font-family:'Arial';
+            font-size: 80%;
+            color: white;
+            font-weight:lighter;     
+
+    }
+
+    .past-placements {
+    margin:40px auto;
+    border: 1px;
+    background-image:linear-gradient(#0079A5, #143D61);
+    width: 50%;
+    height:50px;
+    border-radius: 12px;
+    justify-content: space-between;
+    display: flex;
+    padding: 12px 5px;
+    box-shadow: 0px 1px 10px #2eaddb;
+    box-shadow: blur;
+        }
+    .past-placements p{
+        font-family:'Arial';
+        font-size: 15px;
+        color: white;
+        display: block;
+        align-items: center;
+    }
+    
+}
+    
+
+    @media screen and (max-width:500px){ 
+        .recruiters-heading{
+            margin: 10px auto;
+            
+        
+        
+        }
+        .past-placements-visuals-with-graph{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;   }
+    
+       
+        
+        .past-placements-year{
+            border:1px black;
+            background-image:linear-gradient(white,rgb(173, 173, 173));
+            border-radius: 20px;
+            font-family:'Arial';
+            font-size: 10px;
+            color: rgb(1, 1, 78);
+            font-weight: bold;
+            margin: 30px;
+                
+        }
+        .past-placements-visuals{
+            border-radius: 18px;
+            background-image:linear-gradient(#0079A5, #0B0538);
+            width:80%;
+            
+            margin:30px auto;
+            padding: 20px 20px ;
+        
+        }
+        .past-placements-visuals-with-graph{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        
+        .graph{
+            width:100%;
+            height:auto;
+            transition: transform .4s;
+        }
+        
+        .pie{
+            width:100%;
+            height:auto;
+            transition: transform .4s;
+        }
+        .graph:hover, .pie:hover{
+            transform: scale(1.5);
+            background-image:linear-gradient(#0079A5, #0B0538);
+            border-radius: 10px;
+        }
+        
+        
+    }

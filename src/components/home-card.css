@@ -1,0 +1,49 @@
+.card-home{
+  
+    border: 1px solid black;
+    box-shadow: 0px 1px 10px #2eaddb;  
+    padding:5%;
+    height:300px;
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    border-radius:30px;
+    margin: 20px auto;
+    position: relative; 
+  }
+
+  .card-icons{
+    height:50%;
+  }
+
+  .card-message{
+    color:white;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+  }
+
+  .btn-7{
+    border-radius:30px;
+    background-color:white;
+    padding:10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color:rgb(18, 74, 107)
+  }
+  .btn-7:hover{
+    box-shadow: inset 0px 50px 0px 50px rgb(18, 74, 107); 
+     transition:0.5s;
+     border: 1px solid white;
+    color: white;
+  }
+  @media screen and (max-width: 768px) {
+  }
+  @media screen and (max-width: 425px) {
+  }
+  @media screen and (max-width: 375px) {
+  }
+  @media screen and (max-width: 320px) {
+  }

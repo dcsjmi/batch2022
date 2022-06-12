@@ -1,0 +1,122 @@
+.no-padding {
+	padding: 0px;
+}
+.no-margin {
+	margin: 0;
+}
+.no-border {
+	border: none;
+}
+.no-vertical-border {
+	border-left: none;
+	border-right: none;
+}
+.no-horizontal-border {
+	border-top: none;
+	border-bottom: none;
+}
+.scroll {
+	overflow: auto;
+}
+.right-align {
+	text-align: right;
+}
+.center-align {
+	text-align: center;
+}
+.content {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.header {
+	/*background-image: url('images/juet-guna.jpg');*/
+	/*background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: left;*/
+	height: 150px;
+	text-align: right;
+	/*vertical-align: middle;*/
+	color: #35a;
+	/*text-transform: uppercase;*/
+	display: table;
+	width: 100%;
+}
+
+
+.titles {
+	vertical-align: middle;
+	display: table-cell;
+	/*float: right;*/
+}
+
+.list-group-item {
+	margin-bottom: auto;
+	margin-top: -1px;
+}
+.row {
+	margin: 0;
+
+}
+.main {
+	margin-bottom: 16px !important;
+}
+.panel {
+	margin: 0 auto;
+}
+.padawan {
+	padding-left: 11px;
+	padding-right: 11px;
+}
+.link-btn {
+	padding: 5px;
+}
+.heading-default {
+	display: inline-table;
+	width: 100%;
+	background-color: #22acda !important;
+	color: #fff !important;
+}
+.panel-heading > h5 {
+	font-size: 12px;
+	line-height: 17px;
+}
+.sidebar {
+	border: none;
+	-webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow:none;
+}
+.sublist {
+	background-color: #fafafa;
+	padding-left: 30px;
+}
+a.list-group-item {
+	 background-color: rgb(247, 243, 243);
+	 color: rgb(43, 42, 42);
+	 border: 1px solid #ddd;
+	 border-left: none;
+	 border-right: none;
+}
+a.list-group-item:hover {
+	 background-color: #c0c0c0;
+	 border: 1px solid rgb(104, 103, 103);
+	 border-left: none;
+	 border-right: none;
+	 color: #555;
+}
+
+.sub-heading {
+	background-color: #22acda !important;
+	border: none;
+}
+.sub-heading > h3 {
+	font-size: 14px;
+}
+img.faculty {
+	float: right;
+	margin-right: 10px;
+	border-width: 5px;
+	border-color: #eee;
+	border-style: solid;
+	height: 200px;
+}

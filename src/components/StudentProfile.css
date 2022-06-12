@@ -1,0 +1,38 @@
+.nav_heads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8%;
+}
+#nav_head{
+    border-radius: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tab_btn{
+    width:185px;
+    padding:10px;
+    text-align: center;
+    margin:5px;
+}
+
+.t_btn{
+    font-size:1.5em;
+}
+
+
+
+.t_btn.active,.t_btn:hover{
+    background-color: purple;
+    color:white;
+    padding-bottom: 15px !important;
+    vertical-align: middle;
+    /*border-radius: 40px;*/
+    /* translate: 0.6s; */
+    transition: 0.3s ease-out;
+    
+}
+.studentCard{
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+

@@ -1,0 +1,44 @@
+.page-header{
+    margin: 30px auto;
+    border: 1px;
+    background-image:linear-gradient(#0079A5, #143D61);
+    width: 70%;
+    height:50px;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 10px #2eaddb;
+    box-shadow: blur;
+}
+.page-header p{
+    font-family:'Arial';
+    font-size: 20px;
+    color: white;
+    font-weight:lighter;
+}
+
+@media screen and (max-width: 992px) {
+    .page-header{
+        margin: 30px auto;
+        border: 1px;
+        background-image:linear-gradient(#0079A5, #143D61);
+        width: 70%;
+        height: 30px;
+        border-radius: 10px;
+        justify-content: space-between;
+        display: flex;
+        padding: 5px 5px;
+        box-shadow: 0px 1px 10px #2eaddb;
+        box-shadow: blur;
+    
+    
+    }
+    .page-header p{
+            font-family:'Arial';
+            font-size: 80%;
+            color: white;
+            font-weight:lighter;     
+
+    }
+}
