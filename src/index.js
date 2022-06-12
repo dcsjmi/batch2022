@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import {BrowserRouter as Router,Route} from 'react-router-dom';
+import {HashRouter as Router,Route} from 'react-router-dom';
 //importing React Bootstrap Css
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
@@ -10,7 +10,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename='batch2022'>
     <ScrollToTop>
     <App />
     <Footer/>
