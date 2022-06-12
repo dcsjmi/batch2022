@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/batch2022/static/css/main.c8ad1790.chunk.css",
-    "main.js": "/batch2022/static/js/main.927f1e39.chunk.js",
-    "main.js.map": "/batch2022/static/js/main.927f1e39.chunk.js.map",
+    "main.js": "/batch2022/static/js/main.1e693df8.chunk.js",
+    "main.js.map": "/batch2022/static/js/main.1e693df8.chunk.js.map",
     "runtime-main.js": "/batch2022/static/js/runtime-main.46567660.js",
     "runtime-main.js.map": "/batch2022/static/js/runtime-main.46567660.js.map",
     "static/css/2.081f420c.chunk.css": "/batch2022/static/css/2.081f420c.chunk.css",
-    "static/js/2.39787dfb.chunk.js": "/batch2022/static/js/2.39787dfb.chunk.js",
-    "static/js/2.39787dfb.chunk.js.map": "/batch2022/static/js/2.39787dfb.chunk.js.map",
+    "static/js/2.8a7132e1.chunk.js": "/batch2022/static/js/2.8a7132e1.chunk.js",
+    "static/js/2.8a7132e1.chunk.js.map": "/batch2022/static/js/2.8a7132e1.chunk.js.map",
     "index.html": "/batch2022/index.html",
     "static/css/2.081f420c.chunk.css.map": "/batch2022/static/css/2.081f420c.chunk.css.map",
     "static/css/main.c8ad1790.chunk.css.map": "/batch2022/static/css/main.c8ad1790.chunk.css.map",
-    "static/js/2.39787dfb.chunk.js.LICENSE.txt": "/batch2022/static/js/2.39787dfb.chunk.js.LICENSE.txt",
+    "static/js/2.8a7132e1.chunk.js.LICENSE.txt": "/batch2022/static/js/2.8a7132e1.chunk.js.LICENSE.txt",
     "static/media/1200px-Genpact_logo.svg.png": "/batch2022/static/media/1200px-Genpact_logo.svg.8a69b13f.png",
     "static/media/1200px-Hughes_Communications_logo.svg.png": "/batch2022/static/media/1200px-Hughes_Communications_logo.svg.42547b30.png",
     "static/media/1200px-Ranbaxy_Logo.svg.png": "/batch2022/static/media/1200px-Ranbaxy_Logo.svg.f02dcf69.png",
@@ -235,8 +235,8 @@
   "entrypoints": [
     "static/js/runtime-main.46567660.js",
     "static/css/2.081f420c.chunk.css",
-    "static/js/2.39787dfb.chunk.js",
+    "static/js/2.8a7132e1.chunk.js",
     "static/css/main.c8ad1790.chunk.css",
-    "static/js/main.927f1e39.chunk.js"
+    "static/js/main.1e693df8.chunk.js"
   ]
 }
